@@ -1,0 +1,30 @@
+.play-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    min-height: 100vh;
+    text-align: center;
+    margin-bottom: 100px;
+  }
+  
+  .board-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .board {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .board-row {
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+  }
+  .title-banner{
+    padding-top:20px;
+  }

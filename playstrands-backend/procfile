@@ -1,0 +1,1 @@
+web: concurrently "cd node && node index.js" "cd python && uvicorn generator_api:app --host 0.0.0.0 --port $PORT"
